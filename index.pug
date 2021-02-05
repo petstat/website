@@ -1,16 +1,7 @@
-doctype html
-html(lang='en')
-    head
-        meta(charset='utf-8')
-        title PetStat - A doggy app for humans
-        meta(name='description' content='')
-        meta(name='viewport' content='width=device-width, initial-scale=1')
-        meta(name="theme-color" content='#7451ba')
-        link(rel='stylesheet' href='/styles/main.css')
-        link(rel='preconnect' href='https://fonts.gstatic.com')
-        link(href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rubik:wght@800&display=swap' rel="stylesheet")
+extends includes/default.pug
 
-    body
-        main
-            div.card
-                p #[span.petstat-title PetStat] #[span.petstat-body is coming soon]
+block content
+    main
+        div.card
+            p.ps-body.ps-tagline A doggy app for humans
+            p #[span.ps-title PetStat] #[span.ps-body is coming soon]
