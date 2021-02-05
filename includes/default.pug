@@ -3,12 +3,17 @@ html(lang='en')
     head
         meta(charset='utf-8')
         title PetStat - A doggy app for humans
-        meta(name='description' content='')
+        meta(name='description' content='A doggy app for humans')
         meta(name='viewport' content='width=device-width, initial-scale=1')
         meta(name="theme-color" content='#7451ba')
         link(rel='stylesheet' href='/styles/main.css')
         link(rel='preconnect' href='https://fonts.gstatic.com')
-        link(href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Rubik:wght@800&display=swap' rel='stylesheet')
+        link(
+            href='https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;600&family=Rubik:wght@800&display=swap'
+            rel='stylesheet'
+        )
 
     body
         block content
+        footer.v-center
+            span &copy; 2020-2021 #[a(href='mailto:cory.gantenbein@gmail.com') Cory G]
