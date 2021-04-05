@@ -1,7 +1,7 @@
 // Variables
 $petstat-purple: #7451ba;
 $card-bg: rgba(255, 255, 255, 0.87);
-$card-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.37);
+$card-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.54);
 $body-color: rgba(0, 0, 0, 0.87);
 
 .v-center {
@@ -29,8 +29,9 @@ main {
         background: $card-bg;
         padding: 40px 80px;
         overflow: auto;
-        border-radius: 16px;
+        // border-radius: 16px;
         box-shadow: $card-shadow;
+        border: 5px solid black;
     }
 }
 
